@@ -1,15 +1,15 @@
 [
- { "id": "sclock",
-    "name": "Simple Clock",
-    "icon": "clock-simple.png",
-    "version":"0.04",
-    "description": "A Simple Digital Clock",
+ { "id": "csclock",
+    "name": "Digital Clock",
+    "icon": "csclock.png",
+    "version":"0.00",
+    "description": "A Digital Clock",
     "tags": "clock",
     "type":"clock",
     "allow_emulator":true,
     "storage": [
-      {"name":"sclock.app.js","url":"clock-simple.js"},
-      {"name":"sclock.img","url":"clock-simple-icon.js","evaluate":true}
+      {"name":"csclock.app.js","url":"csclock.js"},
+      {"name":"csclock.img","url":"csclock-icon.js","evaluate":true}
     ]
   }
 ]
